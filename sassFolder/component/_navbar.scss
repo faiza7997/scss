@@ -1,0 +1,139 @@
+$breakpoints: (
+        "xs": 0,
+        "sm": 480px,
+        "md": 720px,
+        "lg": 960px,
+);
+
+@mixin xs {
+    @media (min-width: map-get($breakpoints, "xs")) {
+      @content;
+    }
+  }
+@mixin sm {
+  @media (min-width: map-get($breakpoints, "sm")) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: map-get($breakpoints, "md")) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: map-get($breakpoints, "lg")) {
+    @content;
+  }
+}
+@mixin breakpoint($bp: 0) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    //  background-color: rgb(37, 220, 20);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    font-family: Lato;
+    margin-top: 2.375rem;
+
+    .romb{
+        position: absolute;
+        width: 2.313rem;
+        height: 2.563rem;
+    }
+    .romb1{
+        position: relative;
+        padding-left: 0.875rem;
+        width: 2.313rem;
+        height: 2.563rem;
+    }
+    .euro{
+        display: flex;
+        align-items: center;
+        p{
+            text-transform: uppercase;
+        }
+        .text{
+            display: flex;
+            justify-content: center;
+        }
+        @include xs {
+            margin-left: 3rem;
+        }
+        @include sm {
+            margin-left: 3rem;
+        }
+        @include md {
+            margin-left: 6rem;
+        }
+        @include lg {
+            margin-left: 10rem;
+        }
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .text{
+            display: flex;
+            justify-content: center;
+        }
+        @include xs {
+            margin-left: 5rem;
+        }
+        @include sm {
+            margin-left: 10rem;
+        }
+        @include md {
+            margin-left: 13rem;
+        }
+        @include lg {
+            margin-left: 17rem;
+        }
+        
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-family: Lato ;
+            cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+                text-decoration-color: #F26522;
+                
+            }
+            @include xs {
+                margin-left: 1rem;
+            }
+            @include sm {
+                margin-left: 1.5rem;
+            }
+            @include md {
+                margin-left: 2rem;
+            }
+            @include lg {
+                margin-left: 2.875rem;
+            }
+            
+            
+        }
+        .languages{
+            width: 84px;
+            height: 28px;
+            margin-left: 2.875rem;
+            border-radius: 0.625rem;
+        }
+    }
+   
+}
+
+
+
+

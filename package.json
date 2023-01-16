@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "sass-watch": "^0.1.0"
+  },
+  "name": "europrint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faiza7997/scss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faiza7997/scss/issues"
+  },
+  "homepage": "https://github.com/faiza7997/scss#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

@@ -1,0 +1,148 @@
+$breakpoints: (
+        "xs": 0,
+        "sm": 480px,
+        "md": 720px,
+        "lg": 960px,
+);
+
+@mixin xs {
+    @media (min-width: map-get($breakpoints, "xs")) {
+      @content;
+    }
+  }
+@mixin sm {
+  @media (min-width: map-get($breakpoints, "sm")) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: map-get($breakpoints, "md")) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: map-get($breakpoints, "lg")) {
+    @content;
+  }
+}
+@mixin breakpoint($bp: 0) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}
+
+.page1{
+   display: flex;
+
+   .item1{
+    flex: 1;
+    font-family: 'Lato';
+
+    @include xs {
+        margin-left: 3rem;
+        width: 15rem;
+        font-size: 0.8rem;
+        font-weight: 100;
+        margin-top: 13rem;
+        background-color: #55d30c;
+    }
+    @include sm {
+        margin-left: 3rem;
+        width: 25rem;
+        font-size: 1rem;
+        font-weight: 200;
+        margin-top: 13rem;
+        background-color: #F26522;
+    }
+    @include md {
+        margin-left: 6rem;
+        width: 35rem;
+        font-size: 1.5rem;
+        font-weight: 200;
+        margin-top: 13rem;
+        background-color: #7023c8;
+    }
+    @include lg {
+        margin-left: 10rem;
+        width: 44rem;
+        font-size: 2rem;
+        font-weight: 100;
+        margin-top: 13rem;
+        margin-left: 10.313rem;
+        background-color: white;
+    }
+    
+    .bolt{
+        
+        @include xs {
+            font-weight: 300;
+            margin-top: 1rem;  
+        }
+        @include sm {
+            font-weight: 500;
+            margin-top: 1rem;
+        }
+        @include md {
+            font-weight: 700;
+            margin-top: 1rem;
+        }
+        @include lg {
+            font-weight: 900;
+            margin-top: 1rem;
+        }
+    }
+    button{
+        background-color:#F26522;
+        width: 14.25rem;
+        height: 2.875rem;
+        border: none;
+        border-radius: 6.25rem;
+        color: white;
+        cursor: pointer;
+        position:absolute;
+    }
+    .strelka{
+        position: relative;
+        // background-color: black;
+        margin-left: 170px;
+        margin-bottom: 10px;
+       
+    }
+    .phoneNumbers{
+        display: flex;
+        margin-top:  11.563rem;
+    }
+    
+    .number{
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .remain-num{
+        margin-top: -1rem;
+        font-weight: 400;
+        font-size: 32px;
+    }
+    .number2{
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .remain-num2{
+        margin-top: -1rem;
+        font-weight: 400;
+        font-size: 32px;
+    }
+    .Number-child{
+        margin-left: 2.25rem;
+    }
+   }
+
+   .item2{
+    flex: 1;
+    margin-top: 7.75rem;
+    width: 100%;
+    // height: 24.813rem;
+    // background-color: crimson;
+    // width: 100%;
+    // height: 100px;
+   }
+}
