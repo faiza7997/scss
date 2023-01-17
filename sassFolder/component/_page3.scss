@@ -1,0 +1,59 @@
+// .mainHeader{
+//     font-family: 'Lato';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 50px;
+//     color: rgb(225, 8, 8);
+//     margin-bottom: -10rem ;
+//     position: rela;
+//     }
+
+
+.img1{
+    margin-top: 6.25rem;
+
+   img{
+    width: 100%;
+    height: 46.875rem;
+    position: absolute;
+   }
+   
+}
+.cardWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+ margin-left: 5rem;
+ margin-top: 9rem;
+ position: relative;
+ width: 21.875rem;
+ height: 13.125rem;
+ background-color: white;
+ border-radius: 4px;
+
+ .heading{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+    text-align: center;
+ }
+ .text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 294px;
+    text-align: center;
+    margin-left: 1.75rem;
+
+ }
+ .icon{
+    margin-left: 7.813rem;
+    margin-top: -3rem;
+ }
+}

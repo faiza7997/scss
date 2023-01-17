@@ -1,0 +1,60 @@
+.page4{
+   .title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 32.875rem;
+    margin-top: 8.438rem;
+   }
+  .disign{
+    width: 20.75rem;
+    height: 35.313rem;
+    background-color: #f264225a;
+    border-bottom-left-radius: 12.5rem;
+    position: absolute;
+    margin-top: 44.438rem;
+  }  
+  .disign2{
+    width: 20.75rem;
+    height: 35.313rem;
+    background-color: #f264225a;
+    border-top-right-radius: 12.5rem;
+    position: absolute;
+    margin-left: 74.2rem;
+    margin-top: -8rem;
+  }  
+  .images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.188rem;
+      
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  }
+}

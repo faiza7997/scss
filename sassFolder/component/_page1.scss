@@ -43,24 +43,23 @@ $breakpoints: (
         width: 15rem;
         font-size: 0.8rem;
         font-weight: 100;
-        margin-top: 13rem;
-        background-color: #55d30c;
+        margin-top: 8rem;
     }
     @include sm {
         margin-left: 3rem;
         width: 25rem;
         font-size: 1rem;
         font-weight: 200;
-        margin-top: 13rem;
-        background-color: #F26522;
+        margin-top: 10rem;
+     
     }
     @include md {
         margin-left: 6rem;
         width: 35rem;
         font-size: 1.5rem;
         font-weight: 200;
-        margin-top: 13rem;
-        background-color: #7023c8;
+        margin-top: 11.5rem;
+
     }
     @include lg {
         margin-left: 10rem;
@@ -69,7 +68,7 @@ $breakpoints: (
         font-weight: 100;
         margin-top: 13rem;
         margin-left: 10.313rem;
-        background-color: white;
+    
     }
     
     .bolt{
@@ -93,20 +92,37 @@ $breakpoints: (
     }
     button{
         background-color:#F26522;
-        width: 14.25rem;
-        height: 2.875rem;
         border: none;
-        border-radius: 6.25rem;
         color: white;
         cursor: pointer;
         position:absolute;
+
+        @include xs {
+        width: 100px;
+        height: 20px;
+        border-radius: 30px;
+        // margin-top: -3.5rem; 
+       }
+       @include sm {
+        width: 120px;
+        height: 30px;
+        border-radius: 40px;
+        // margin-top: -3.5rem; 
+           
+       }
+       @include md {
+           
+       }
+       @include lg {
+        width: 14.25rem;
+        height: 2.875rem;
+        border-radius: 6.25rem;
+           
+       }
     }
     .strelka{
         position: relative;
-        // background-color: black;
         margin-left: 170px;
-        margin-bottom: 10px;
-       
     }
     .phoneNumbers{
         display: flex;
@@ -118,16 +134,18 @@ $breakpoints: (
         margin-bottom: 5px;
     }
     .remain-num{
-        margin-top: -1rem;
+        margin-top: -0.5rem;
         font-weight: 400;
         font-size: 32px;
+        margin-left: 1rem;  
     }
     .number2{
         font-size: 13px;
         margin-bottom: 5px;
     }
     .remain-num2{
-        margin-top: -1rem;
+        margin-top: -0.5rem;
+        margin-left: 1rem;
         font-weight: 400;
         font-size: 32px;
     }
@@ -140,9 +158,30 @@ $breakpoints: (
     flex: 1;
     margin-top: 7.75rem;
     width: 100%;
-    // height: 24.813rem;
-    // background-color: crimson;
-    // width: 100%;
-    // height: 100px;
+    img{
+        @include xs {
+          width: 100px;
+          height: 100px;
+          margin-top: -3.5rem;
+        }
+        @include sm {
+          width: 300px;
+          height: 300px;
+          margin-top: -11rem;
+            
+        }
+        @include md {
+          width: 400px;
+          height: 400px;
+          margin-top: -14rem;
+            
+        }
+        @include lg {
+          width: 550px;
+          height: 397px;
+          margin-top: -13rem;
+            
+        }
+    }
    }
 }
