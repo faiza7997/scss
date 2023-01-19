@@ -1,23 +1,78 @@
 .footer{
-    height: 34.375rem;
+    // height: 34.375rem;
     background-color: #131A22;
     display: flex;
+    text-align: center;
+    justify-content:center ;
     
-   
-  
+    
+    
+    
     .kompaniya{
         margin-top: 5rem;
         flex: 1;
         color: white;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        .child{
+        
+       
+        a{
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            color: #FFFDF7;
+            text-decoration: none;
+            text-align: start;
+        }
     }
-    .xizmatlar{
-        margin-top: 5rem;
-        flex: 1;
-        color: white;
+}
+
+.last{
+margin-right:  6rem ;
+text-align: start;
+
+
+
+.aloqa{
+    margin-top: 5rem;
+    flex: 1;
+    color: white;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+.num{
+    color: white;
+}
+.number{
+    color: white;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    margin-top: -1rem;
     }
-    .mijozlaruchun{
-        margin-top: 5rem;
-        flex: 1;
-        color: white;
+.location{
+    display: flex;
+    color:  #FFFDF6;
+    img{
+        width: 20px;
+        height:20px;
+        margin-top: 15px;
+        margin-left: -1.4rem;
     }
- }
+   
+    }
+    .p{
+        color:  #FFFDF6;
+        width: 250px;
+        margin-top: -1rem;
+    }
+  } 
+}
