@@ -14,16 +14,18 @@
         height: 10rem;
         border-top-right-radius: 15rem;
         position: absolute;
-        // display: flex;
+        display: flex;
+        align-items: center;
         .item{
             margin-left: 16.125rem;
-            margin-top: -1rem;
+            margin-top: -3rem;
               position: absolute;   
             .title{
               font-family: 'Lato';
               font-style: normal;
               font-weight: 700;
               font-size: 50px;
+              margin-top: 80px;
           }
             .description{               
              font-family: 'Lato';
