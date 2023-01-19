@@ -1,0 +1,50 @@
+.page5{
+  display: flex; 
+  height: 39.25rem;
+  margin-top: 71.875rem;
+  .item1{
+    
+    background-color: crimson;
+    width: 36.438rem;
+    height: 28rem;
+    text-align: start;
+    margin-left: 15rem;
+    margin-top: 8rem;
+    background-color: white;
+    position: absolute;
+    .header{ 
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 50px;
+    }
+    .text{
+        width: 36rem;
+    }
+  }
+  .item2{
+   
+    img{
+        margin-left: 42rem;
+        border-top-right-radius: 18.75rem;
+    }
+    .strelka{
+      width: 14rem;
+      height: 5rem;
+      background-color: white;
+      position: absolute;
+      margin-left: 40rem;
+      margin-top: -5rem;
+      .right{
+        margin-top: 2rem;
+        margin-left: 10rem;
+        position: absolute;
+     }
+     .left{
+      margin-top: 2rem;
+      position: absolute;
+      margin-left: 2rem;
+     }
+    }
+  }
+}

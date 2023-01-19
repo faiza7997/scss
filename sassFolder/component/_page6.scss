@@ -1,0 +1,76 @@
+.page6{
+    // display: flex;
+    .header{
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 50px;
+     margin-left: 30.75rem;
+     margin-top: 12.375rem  ;
+    }
+    .back{
+        background-color: #37475a23;
+        width: 85rem;
+        height: 10rem;
+        border-top-right-radius: 15rem;
+        position: absolute;
+        // display: flex;
+        .item{
+            margin-left: 16.125rem;
+            margin-top: -1rem;
+              position: absolute;   
+            .title{
+              font-family: 'Lato';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 50px;
+          }
+            .description{               
+             font-family: 'Lato';
+             font-style: normal;
+             font-weight: 400;
+             font-size: 24px;
+             margin-left: -4rem;
+             margin-top: -2rem;
+            }
+        }
+        .item2{
+            margin-left: 40rem;
+            margin-top: -1rem;
+              position: absolute;   
+            .title2{
+              font-family: 'Lato';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 50px;
+          }
+            .description2{               
+             font-family: 'Lato';
+             font-style: normal;
+             font-weight: 400;
+             font-size: 24px;
+             margin-left: -4rem;
+             margin-top: -2rem;
+            }
+       }
+       .item3{
+        margin-left: 62rem;
+        margin-top: -1rem;
+          position: absolute;   
+        .title3{
+          font-family: 'Lato';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 50px;
+      }
+        .description3{               
+         font-family: 'Lato';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 24px;
+         margin-left: -4rem;
+         margin-top: -2rem;
+        }
+    }
+}
+}
