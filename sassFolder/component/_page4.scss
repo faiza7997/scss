@@ -16,15 +16,16 @@
     position: absolute;
     margin-top: 25rem;
   }  
-  .disign2{
-    width: 20.75rem;
-    height: 35.313rem;
-    background-color: #f264225a;
-    border-top-right-radius: 12.5rem;
-    position: absolute;
-    margin-left: 74.2rem;
-    margin-top: -8rem;
-  }  
+  // .disign2{
+  //   width: 20.75rem;
+  //   height: 35.313rem;
+  //   background-color: #f264225a;
+  //   border-top-right-radius: 12.5rem;
+  //   position: absolute;
+  //   margin-left: 74.2rem;
+  //   margin-top: -8rem;
+  //   overflow: hidden;
+  // }  
   .images{
     position: absolute;
     display: flex;
@@ -49,6 +50,7 @@
       height: auto;
       transition: .5s ease;
       backface-visibility: hidden;
+      transition: 1s;
     }
     
     .middle {
