@@ -1,32 +1,59 @@
 .page2{
     display: flex;
-    overflow: hidden;
+    // overflow: hidden;
 
     .item1{
         flex: 1;
         width: 100%;
         height: 100px;
         margin-left: 10.313rem;
-        .title{
+        @media only screen and (max-device-width: 600px) { 
+            margin-left: 3rem;
+            width: fit-content;
+           
+        }
+        .title1{
          margin-top: 12.063rem;
+         text-align: left;
+        //  margin-left: 10.313rem;
          text-transform: uppercase;
          font-weight: 700;
          font-size: 50px;
          font-family: 'Lato';
+         color: #131A22;
+         @media only screen and (max-device-width: 600px) { 
+            font-weight: 600;
+            font-size: 34px;
+           
+        }
         }
         .subtitle{
          font-weight: 700;
          font-size: 50px;
          font-family: 'Lato';
          margin-top: -50px;
+         text-align: center;
+         color: #131A22;
+         margin-top: 5px;
+         text-align: left;
+         @media only screen and (max-device-width: 600px) { 
+            font-weight: 600;
+            font-size: 34px;
+           
+        }
         }
         .desription{
+        margin-top: 2rem;
          width: 585px;
          font-family: 'Lato';
          font-style: normal;
          font-weight: 400;
          font-size: 20px;
          color: #37475A;    
+         @media only screen and (max-device-width: 600px) { 
+            width: fit-content;
+           
+        }
         }
         .bosmahona{
          font-family: 'Lato';
@@ -40,7 +67,7 @@
             display: flex;
             align-items: center;
             gap: 1rem;
-            margin-top: -20px;
+            margin-top: 1rem;
             p{
                 color: #37475A;
                 font-family: 'Lato';
@@ -55,6 +82,9 @@
     .item2{
         flex: 1;
         display: flex;
+        @media only screen and (max-device-width: 800px) { 
+            display: none;
+        }
        
        .img{
         margin-top: 12.063rem;
@@ -62,23 +92,30 @@
         height: 41.813rem;
         background-color:  #b3b1b18a;
         border-top-left-radius: 200px;
-        margin-left: 15rem;
+        margin-left: 25rem;
+        overflow: hidden;
         position: relative;
     }
     .romb{
         position: absolute;
         margin-top: 30rem;
-        margin-left: 2rem;  
+        margin-left: 16rem;  
+        @media only screen and (max-device-width: 800px) { 
+            display: none;
+        }
        }
        .euro{
-        color: white;
+        color: rgb(254, 252, 252);
         position: absolute;
         font-weight: 900;
         font-size: 80px;
         text-transform: uppercase;
         font-family: 'Lato';
         margin-top: 14.688rem;
-        margin-left: 17.5rem;
+        margin-left: 28rem;
+        @media only screen and (max-device-width: 800px) { 
+            display: none;
+        }
        }
        .print{
         color: white;
@@ -88,7 +125,10 @@
         text-transform: uppercase;
         font-family: 'Lato';
         margin-top: 20rem;
-        margin-left: 22rem;
+        margin-left: 30rem;
+        @media only screen and (max-device-width: 800px) { 
+            display: none;
+        }
        }
     
     }

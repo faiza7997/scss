@@ -7,6 +7,9 @@
     font-size: 50px;
     text-align: center;
     margin-top: 8.438rem;
+    color: #131A22;
+    margin-bottom: 2rem;
+    text-align: center;
    }
   .disign{
     width: 20.75rem;
@@ -15,32 +18,47 @@
     border-bottom-left-radius: 12.5rem;
     position: absolute;
     margin-top: 25rem;
+    
   }  
-  // .disign2{
-  //   width: 20.75rem;
-  //   height: 35.313rem;
-  //   background-color: #f264225a;
-  //   border-top-right-radius: 12.5rem;
-  //   position: absolute;
-  //   margin-left: 74.2rem;
-  //   margin-top: -8rem;
-  //   overflow: hidden;
-  // }  
-  .images{
+  .disign2{
+    width: 20.75rem;
+    height: 35.313rem;
+    background-color: #f264225a;
+    border-top-right-radius: 12.5rem;
     position: absolute;
+    margin-left: 74.2rem;
+    margin-top: -8rem;
+    overflow: hidden;
+    @media only screen and (max-device-width: 1280px) { 
+        display: none;
+   }
+  }  
+  .images{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     width: 1200px;
-    margin-left: 9.75rem;
+    margin-left: 10.131rem;
+    flex-wrap: wrap;
     gap: 1.188rem;
     overflow: hidden;
+    position: absolute;
+ 
+    @media only screen and (max-device-width: 1280px) { 
+      width: fit-content;
+      // margin-left: 1rem; 
+      margin-left: -1.5rem;
+   }
       
     }
     .container {
       position: relative;
       width: 260px;
+
+      @media only screen and (max-device-width: 600px) { 
+        
+        align-content: center;
+     }
     }
     
     .image {

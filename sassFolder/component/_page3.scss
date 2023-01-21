@@ -9,21 +9,29 @@
 //     }
 
 
-.img1{
-    margin-top: 6.25rem;
+// .img1{
+//     margin-top: 30rem;
 
-   img{
-    width: 100%;
-    height: 46.875rem;
-    position: absolute;
-   }
+//     @media only screen and (max-device-width: 800px) { 
+//       display: none;
+//   }
+//    img{
+//     width: 100%;
+//     height: 46.875rem;
+//     position: absolute;
+//    }
    
-}
+// }
 .cardWrapper{
+   margin-top: 30rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    @media only screen and (max-device-width: 800px) { 
+           margin-top: 52rem;
+           margin-left: -5rem;
+        }
 }
 .card{
  margin-left: 5rem;
@@ -46,12 +54,14 @@
  
 
  .heading{
+   margin-top: 1rem;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     text-transform: capitalize;
     text-align: center;
+    color: #131A22;
  }
  .text{
     font-family: 'Lato';
@@ -61,6 +71,7 @@
     width: 294px;
     text-align: center;
     margin-left: 1.75rem;
+    color: #131A22;
 
  }
  .icon{

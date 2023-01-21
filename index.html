@@ -9,39 +9,33 @@
 </head>
 <body> 
 
-  <!--  Navbar -->
- <div class="navbar">
-   <div class="euro">
-     <img class="romb" src="./assets/romb.png" alt="error">
-     <img class="romb1" src="./assets/romb.png" alt="error">
-     <div class="text">
-       <p>euro</p>
-       <p>print</p>
-     </div>
-   </div>
-
-   <div class="nav"> 
-    <a href="#">Biz haqimizda</a>
-    <a href="#">Xizmatlar</a>
-    <a href="#">Portfolio</a>
-    <a href="#">Mijozlar</a>
-    <a href="#">Jamoa</a>
-    <a href="#">Kontakt</a>
-    <div>
-      <select class="languages" id="languages">
-        <option value="Uzbek">Uzbek</option>
-        <option value="English">English</option>
-        <option value="Russian">Russian</option>
-      </select>
+   <!-- Navbar -->
+  <nav>
+    <div class="logo">
+        <img src="./assets/logo.png" alt="error">
     </div>
+    <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
     </div>
- </div>
+    <ul class="nav-links">
+        <li><a style="color: black;" href="#">Biz haqimizda</a></li>
+        <li><a style="color: black;" href="#">Xizmatlar</a></li>
+        <li><a  style="color: black;" href="#">Portfolio</a></li>
+        <li><a  style="color: black;" href="#">Mijozlar</a></li>
+        <li><a style="color: black;" href="#">Jamoa</a></li>
+        <li><a style="color: black;" href="#">Kontakt</a></li>
+        <li><button class="join-button" href="#">Language</button></li>
+    </ul>
+  </nav>
+<script src="./sassFolder/component/nav.js"></script> 
 <!--  Navbar -->
 
 <!-- page 1 -->
 <div class="page1">
   <div class="item1">
-    <p>Nega mijozlar bizni tanlashadi? Songi texnologiyalar sifati, <div class="bolt">hoziroq buyurtma bering!</div> </p>
+    <p class="p1">Nega mijozlar bizni tanlashadi? Songi texnologiyalar sifati, <div class="bolt">hoziroq buyurtma bering!</div> </p>
     <button>Buyurtma berish</button>
      <div>
       <img class="strelka" src="./assets/sterlka.png" alt="error">
@@ -119,7 +113,7 @@
 <div class="page2">
 
   <div class="item1">
-    <p class="title">"EuroPrint"</p>
+    <p class="title1">"EuroPrint"</p>
     <p class="subtitle">tipografiyasi haqida</p>
     <p class="desription"> "EUROPRINT" o'zbek bosmaxonasi - bu sizning biznesingizga yuqori darajadagi professional yondashuv. Bosma mahsulotlarning ahamiyatini ortiqcha baholash qiyin. Axir, sizning kompaniyangizning imidji bunga bog'liq.
        Biz, o'zbek matbaa ijodiy uyi, Sizga eng yuqori darajadagi bosma dizayn va ishlab chiqarishni rivojlantirish bo'yicha xizmatlarni ko'rsatishga tayyormiz. Bizning ishimizda sifat, samaradorlik va mijozning vazifalariga individual yondoshishni muvaffaqiyatli birlashtiramiz.
@@ -160,7 +154,7 @@
 <!-- page 3 -->
 <div>
   <div class="img1"> 
-    <img src="./assets/page3Back.png" alt="erorr">
+    
     <!-- <p class="mainHeader">nima uchun biz?</p> -->
   </div>
    <div class="cardWrapper">
@@ -312,6 +306,9 @@
         <div class="text">Buyurtmaberish</div>
       </div>
     </div>
+
+
+    
     
     
     
@@ -340,10 +337,7 @@
    </div>
    <div class="item2">
     <img src="./assets/boxBack.png" alt="error">
-    <div class="strelka">
-      <img class="right"  src="./assets/strelkaR.png" alt="error">
-      <img  class="left" src="./assets/strelkaL.png" alt="error">
-    </div>
+    
    </div>
 </div>
 <!-- page5 -->
@@ -351,23 +345,25 @@
 <!-- page6 -->
 <div class="page6">
   <p class="header">Bizning yutuqlarimiz</p>
-  
-  <div class="back">
-    <div class="item">
-      <p class="title">628+</p>
-      <p class="description">Bizning mijozlarimiz soni</p>
+  <div class="background">
+
+     <div class="iteem">
+       <p class="title">628+</p>
+       <p class="description">Bizning mijozlarimiz soni</p>
+     </div>
+
+     <div class="item21">
+      <p class="title2">628+</p>
+      <p class="description2">Bizning mijozlarimiz soni</p>
     </div>
 
-    <div class="item2">
-      <p class="title2">1500+</p>
-      <p class="description2">Bajarilgan buyurtmalar soni</p>
+    <div class="item21">
+      <p class="title2">628+</p>
+      <p class="description2">Bizning mijozlarimiz soni</p>
     </div>
 
-    <div class="item3">
-      <p class="title3">628+</p>
-      <p class="description3">Bizning mijozlarimiz soni</p>
-    </div>
   </div>
+  
 </div>
 <!-- page6 -->
 
@@ -377,8 +373,8 @@
   <div class="flex">
     
     <div class="flex1"> 
-      <div class="deya"> <img src="./assets/deya.png" alt="error"></div>
-      <div class="deya"> <img src="./assets/n_medov.png" alt="error"></p></div>
+      <div class="deya1"> <img src="./assets/deya.png" alt="error"></div>
+      <div class="deya1"> <img src="./assets/n_medov.png" alt="error"></p></div>
      </div>
 
      <div class="flex1"> 
@@ -388,7 +384,7 @@
      </div>
 
      <div class="flex1"> 
-      <div class="deya"> <img src="./assets/panda.png" alt="error"></div>
+      <div class="deya"> <img  src="./assets/panda.png" alt="error"></div>
       <div class="deya"> <img src="./assets/asmalad.png" alt="error"></p></div>
      </div>
 
@@ -405,9 +401,9 @@
      </div>
 
      <div class="flex1"> 
-      <div class="indorama"><img src="./assets/medov.png" alt="error"></div>
-      <div class="indorama"><img src="./assets/sfad.png" alt="error"></div>
-      <div class="indorama"><img src="./assets/tekstil.png" alt="error"></div>
+      <div class="indorama1"><img src="./assets/medov.png" alt="error"></div>
+      <div class="indorama1"><img src="./assets/sfad.png" alt="error"></div>
+      <div class="indorama1"><img src="./assets/tekstil.png" alt="error"></div>
      </div>
 
    </div>
@@ -607,7 +603,7 @@
 
     <div class="location">
       <img src="./assets/map-pin.png" alt="error">
-      <p>140100</p>
+      <p class="zip">140100</p>
     </div>
     <p class="p">
       O'zbekiston R,  Farg'ona viloyati,

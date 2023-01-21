@@ -4,7 +4,22 @@
     display: flex;
     text-align: center;
     justify-content:center ;
-    // width: 90rem;
+    @media only screen and (max-device-width: 1000px) { 
+        width: 1000px;   
+     }
+
+     @media only screen and (max-device-width: 900px) { 
+        width: 900px;   
+     }
+     @media only screen and (max-device-width: 700px) { 
+        width: 700px;   
+     }
+
+     @media only screen and (max-device-width: 700px) { 
+        width: 600px;   
+     }
+    
+    
     
     
     
@@ -17,6 +32,10 @@
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
+        @media only screen and (max-device-width: 600px) { 
+            display: none;
+            
+         }
         .child{
         
        
@@ -59,7 +78,7 @@
 
 .last{
 margin-right:  6rem ;
-text-align: start;
+text-align: center;
 
 
 
@@ -71,6 +90,8 @@ text-align: start;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
+
+   
     
 }
 .num{
@@ -82,23 +103,41 @@ text-align: start;
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
-    margin-top: -1rem;
+    margin-top: 1rem;
+    @media only screen and (max-device-width: 600px) { 
+        font-weight: 400;
+        font-size: 18px; 
+        padding-top: 1rem;
+        margin-top: -1rem;
+        
+     }
     }
 .location{
     display: flex;
+    align-items: center;
     color:  #FFFDF6;
     img{
         width: 20px;
         height:20px;
         margin-top: 15px;
         margin-left: -1.4rem;
+        @media only screen and (max-device-width: 600px) { 
+            display: none;
+            }
+    }
+    .zip{
+        @media only screen and (max-device-width: 600px) { 
+            display: none;
+            
+            }
     }
    
     }
     .p{
         color:  #FFFDF6;
         width: 250px;
-        margin-top: -1rem;
+        margin-top: 1rem;
+       
     }
   } 
 }

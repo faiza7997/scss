@@ -1,5 +1,5 @@
 .page6{
-   overflow: hidden;
+  
     .header{
      font-family: 'Lato';
      font-style: normal;
@@ -7,72 +7,105 @@
      font-size: 50px;
      margin-left: 30.75rem;
      margin-top: 12.375rem  ;
+     color: #131A22;
+     @media only screen and (max-device-width: 600px) { 
+      display: none;
+    
+   }
     }
-    .back{
+    .background{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: #37475a23;
         width: 85rem;
         height: 10rem;
         border-top-right-radius: 15rem;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        .item{
-            margin-left: 16.125rem;
-            margin-top: -3rem;
-              position: absolute;   
+        margin-top: 2rem;
+        gap: 8rem;
+        @media only screen and (max-device-width: 1280px) { 
+          width: fit-content;
+          // margin-left: 1rem; 
+          // margin-left: -1.5rem;
+       }
+        @media only screen and (max-device-width: 600px) { 
+          width: 15rem;
+          height: 5rem;
+          margin-top: 220rem;
+       }
+        .iteem{
+          margin-top: -10rem;
+          
             .title{
+              text-align: center;
               font-family: 'Lato';
               font-style: normal;
               font-weight: 700;
               font-size: 50px;
-              margin-top: 80px;
+              color: #131A22;
+              transition: 1s;
+              @media only screen and (max-device-width: 600px) { 
+                display: none;
+                
+             }
+              &:hover{
+                color: #F26522;
+              }
           }
-            .description{               
-             font-family: 'Lato';
-             font-style: normal;
-             font-weight: 400;
-             font-size: 24px;
-             margin-left: -4rem;
-             margin-top: -2rem;
+            .description{      
+              text-align: center;         
+              font-family: 'Lato';
+              font-size: 24px;
+              color: #131A22;
+              text-align: center;
+              font-weight: 400;
+              transition: 1s;
+              @media only screen and (max-device-width: 600px) { 
+                display: none;
+                
+             }
+              &:hover{
+                color: #F26522;
+              }
             }
         }
-        .item2{
-            margin-left: 40rem;
-            margin-top: -1rem;
-              position: absolute;   
+        .item21{
+          
             .title2{
               font-family: 'Lato';
-              font-style: normal;
               font-weight: 700;
               font-size: 50px;
+              color: #131A22;
+              text-align: center;
+              // margin-top: 8.5rem;
+              text-align: center;
+              transition: 1s;
+              @media only screen and (max-device-width: 600px) { 
+                display: none;
+                
+             }
+              &:hover{
+                color: #F26522;
+              }
           }
-            .description2{               
+            .description2{ 
+
              font-family: 'Lato';
-             font-style: normal;
              font-weight: 400;
              font-size: 24px;
-             margin-left: -4rem;
-             margin-top: -2rem;
+             color: #131A22;
+             text-align: center;
+             transition: 1s;
+             @media only screen and (max-device-width: 600px) { 
+              display: none;
+              
+           }
+             &:hover{
+               color: #F26522;
+             }
             }
        }
-       .item3{
-        margin-left: 62rem;
-        margin-top: -1rem;
-          position: absolute;   
-        .title3{
-          font-family: 'Lato';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 50px;
-      }
-        .description3{               
-         font-family: 'Lato';
-         font-style: normal;
-         font-weight: 400;
-         font-size: 24px;
-         margin-left: -4rem;
-         margin-top: -2rem;
-        }
-    }
+       
+    
 }
 }

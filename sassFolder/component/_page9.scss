@@ -3,5 +3,11 @@
         margin-top: 10rem;
         border-top-right-radius: 300px ;
         margin-bottom: -2rem;
+        @media only screen and (max-device-width: 600px) { 
+            width: 300px;
+            height: 200px;
+            border-top-right-radius: 50px ;
+            
+         }
     }
 }
